@@ -1,0 +1,103 @@
+[00:00:02.527] Server  LOG     
+[00:00:02.527] Server  LOG        We detected TypeScript in your project and reconfigured your tsconfig.json file for you.
+[00:00:02.527] Server  LOG        The following suggested values were added to your tsconfig.json. These values can be changed to fit your project's needs:
+
+[00:00:02.528] Server  LOG        	- include was updated to add '.next\dev/types/**/*.ts'
+[00:00:02.528] Server  LOG        	- include was updated to add '.next\dev/types/**/*.ts'
+[00:00:02.528] Server  LOG     
+[00:00:02.528] Server  LOG        The following mandatory changes were made to your tsconfig.json:
+
+[00:00:02.528] Server  LOG        	- jsx was set to react-jsx (next.js uses the React automatic runtime)
+[00:00:02.528] Server  LOG     
+[00:00:02.667] Server  LOG      ✓ Ready in 2.4s
+[00:00:09.645] Server  ERROR    ⨯ ./package.json:1:1
+Error parsing package.json file
+> 1 | ﻿{
+    | ^
+  2 |   "name": "meditation-course",
+  3 |   "version": "1.0.0",
+  4 |   "private": true,
+
+package.json is not parseable: invalid JSON: expected value at line 1 column 1
+
+
+[00:00:10.701] Browser ERROR   uncaughtError: Error: ./package.json:1:1
+Error parsing package.json file
+> 1 | ﻿{
+    | ^
+  2 |   "name": "meditation-course",
+  3 |   "version": "1.0.0",
+  4 |   "private": true,
+
+package.json is not parseable: invalid JSON: expected value at line 1 column 1
+
+
+[00:00:10.885] Browser ERROR   ./package.json:1:1
+Error parsing package.json file
+> 1 | ﻿{
+    | ^
+  2 |   "name": "meditation-course",
+  3 |   "version": "1.0.0",
+  4 |   "private": true,
+
+package.json is not parseable: invalid JSON: expected value at line 1 column 1
+[00:00:11.102] Browser ERROR   ./package.json:1:1
+Error parsing package.json file
+> 1 | ﻿{
+    | ^
+  2 |   "name": "meditation-course",
+  3 |   "version": "1.0.0",
+  4 |   "private": true,
+
+package.json is not parseable: invalid JSON: expected value at line 1 column 1
+[00:00:11.102] Browser ERROR   ./package.json:1:1
+Error parsing package.json file
+> 1 | ﻿{
+    | ^
+  2 |   "name": "meditation-course",
+  3 |   "version": "1.0.0",
+  4 |   "private": true,
+
+package.json is not parseable: invalid JSON: expected value at line 1 column 1
+[00:00:11.102] Browser ERROR   ./package.json:1:1
+Error parsing package.json file
+> 1 | ﻿{
+    | ^
+  2 |   "name": "meditation-course",
+  3 |   "version": "1.0.0",
+  4 |   "private": true,
+
+package.json is not parseable: invalid JSON: expected value at line 1 column 1
+[00:00:11.102] Browser ERROR   ./package.json:1:1
+Error parsing package.json file
+> 1 | ﻿{
+    | ^
+  2 |   "name": "meditation-course",
+  3 |   "version": "1.0.0",
+  4 |   "private": true,
+
+package.json is not parseable: invalid JSON: expected value at line 1 column 1
+[00:00:22.115] Browser ERROR   ./package.json:1:1
+Error parsing package.json file
+> 1 | ﻿{
+    | ^
+  2 |   "name": "meditation-course",
+  3 |   "version": "1.0.0",
+  4 |   "private": true,
+
+package.json is not parseable: invalid JSON: expected value at line 1 column 1
+[00:00:48.239] Server  LOG      ✓ Compiled in 642ms
+[00:00:48.401] Browser ERROR   uncaughtError: Error: ./package.json:1:1
+Error parsing package.json file
+> 1 | ﻿{
+    | ^
+  2 |   "name": "meditation-course",
+  3 |   "version": "1.0.0",
+  4 |   "private": true,
+
+package.json is not parseable: invalid JSON: expected value at line 1 column 1
+
+
+[00:01:49.592] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[01:22:52.758] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[01:50:29.150] Server  LOG      ✓ Compiled in 60ms
