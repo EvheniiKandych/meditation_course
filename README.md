@@ -1,22 +1,19 @@
 ﻿# Meditation Course
+## Start
 
-## Інструкція по запуску для мене
-
-1. Відкрий термінал у папці `C:\work\meditation_course`.
-2. Встанови залежності:
+1. Install requirements:
    ```bash
    npm install
    ```
-3. Запусти dev-сервер:
+3. Launch dev-server:
    ```bash
    npm run dev
    ```
-4. Відкрий у браузері `http://localhost:3000`.
-5. Для production-збірки:
+4. Open in browser `http://localhost:3000`.
+5. For production-build:
    ```bash
    npm run build
    npm run start
    ```
 
-## Вказівки для іншого ШІ
-Це лендинг-сторінка курсу медитації, реалізована на `Next.js (App Router) + TypeScript + Tailwind CSS`. Основний UI знаходиться у `app/page.tsx`, глобальні стилі у `app/globals.css`, SEO-метадані у `app/layout.tsx`, дизайн-токени у `tailwind.config.ts`. Працюй у стилі clean code, зберігай TypeScript strict, не ламай існуючу структуру секцій (`Hero`, `Method`, `Program`, `Benefits`, `FAQ`, `Access`). Для нових змін пріоритет: accessibility (WCAG), SEO-семантика, Core Web Vitals, адаптивність mobile-first.
+This is a meditation course landing page, implemented on `Next.js (App Router) + TypeScript + Tailwind CSS`. The main UI is in `app/page.tsx`, global styles in `app/globals.css`, SEO metadata in `app/layout.tsx`, design tokens in `tailwind.config.ts`. Work in a clean code style, keep TypeScript strict, do not break the existing section structure (`Hero`, `Method`, `Program`, `Benefits`, `FAQ`, `Access`). For new changes, the priority is: accessibility (WCAG), SEO semantics, Core Web Vitals, mobile-first adaptability.
