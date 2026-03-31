@@ -10,10 +10,18 @@ const config: Config = {
         accent: "#c8b8ac",
         line: "#dfd4ca",
         card: "#ebe5de",
+        brand: {
+          v: "#B3BDA4",
+          o: "#F5E4DA",
+          i: "#978672",
+          d: "#EBDFCF",
+        },
       },
       fontFamily: {
         heading: ["'Cormorant Garamond'", "serif"],
         body: ["'Manrope'", "sans-serif"],
+        logo: ["'Tenor Sans'", "sans-serif"],
+        nav: ["'Montserrat'", "sans-serif"],
       },
       letterSpacing: {
         calm: "0.12em",

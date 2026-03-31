@@ -3,7 +3,7 @@ import { programRows } from "@/data/content";
 
 export function Program(): ReactNode {
   return (
-    <section id="program" className="mb-20" aria-labelledby="program-title">
+    <section id="program" className="flex flex-col justify-center min-h-screen py-10" aria-labelledby="program-title">
       <h2 id="program-title" className="font-heading text-3xl uppercase tracking-calm sm:text-4xl">
         The Program:
         <br />

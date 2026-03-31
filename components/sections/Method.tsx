@@ -4,7 +4,7 @@ import { methodItems } from "@/data/content";
 
 export function Method(): ReactNode {
   return (
-    <section id="method" className="mb-20" aria-labelledby="method-title">
+    <section id="method" className="flex flex-col justify-center min-h-screen py-10" aria-labelledby="method-title">
       <SectionTitle top="The" accent="Method" />
       <p className="mt-5 max-w-2xl text-sm text-ink/80">
         We use a repeatable structure that makes your practice stable. Each element has a specific role in

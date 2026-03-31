@@ -2,7 +2,7 @@ import type { ReactNode } from "react";
 
 export function AccessForm(): ReactNode {
   return (
-    <section id="access" aria-labelledby="access-title" className="pb-10">
+    <section id="access" className="flex flex-col justify-center min-h-screen py-10" aria-labelledby="access-title">
       <h2 id="access-title" className="font-heading text-3xl uppercase tracking-calm sm:text-4xl">
         Secure <span className="text-accent">Your Access</span>
       </h2>

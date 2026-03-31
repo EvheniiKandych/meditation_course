@@ -3,7 +3,7 @@ import { faqItems } from "@/data/content";
 
 export function FAQ(): ReactNode {
   return (
-    <section className="mb-20" aria-labelledby="faq-title">
+    <section className="flex flex-col justify-center min-h-screen py-10" aria-labelledby="faq-title">
       <h2 id="faq-title" className="font-heading text-3xl uppercase tracking-calm sm:text-4xl">
         FAQ: <span className="text-accent">Final Clarity</span>
       </h2>

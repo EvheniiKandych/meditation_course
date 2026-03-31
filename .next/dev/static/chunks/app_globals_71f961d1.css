@@ -1,4 +1,4 @@
-@import "https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600&family=Manrope:wght@400;500;600&display=swap";
+@import "https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600&family=Manrope:wght@400;500;600&family=Tenor+Sans&display=swap";
 /* [project]/app/globals.css [app-client] (css) */
 *, :before, :after, ::backdrop {
   --tw-border-spacing-x: 0;
@@ -273,6 +273,26 @@ img, video {
   overflow: hidden;
 }
 
+.absolute {
+  position: absolute;
+}
+
+.relative {
+  position: relative;
+}
+
+.inset-0 {
+  inset: 0;
+}
+
+.z-\[-1\] {
+  z-index: -1;
+}
+
+.z-\[-2\] {
+  z-index: -2;
+}
+
 .mx-auto {
   margin-left: auto;
   margin-right: auto;
@@ -314,6 +334,14 @@ img, video {
   display: grid;
 }
 
+.h-\[60px\] {
+  height: 60px;
+}
+
+.h-full {
+  height: 100%;
+}
+
 .min-h-screen {
   min-height: 100vh;
 }
@@ -326,8 +354,12 @@ img, video {
   max-width: 42rem;
 }
 
-.max-w-3xl {
-  max-width: 48rem;
+.max-w-\[1440px\] {
+  max-width: 1440px;
+}
+
+.flex-1 {
+  flex: 1;
 }
 
 .border-collapse {
@@ -348,6 +380,10 @@ img, video {
 
 .items-center {
   align-items: center;
+}
+
+.justify-center {
+  justify-content: center;
 }
 
 .justify-between {
@@ -381,16 +417,16 @@ img, video {
   overflow: hidden;
 }
 
+.rounded {
+  border-radius: .25rem;
+}
+
 .rounded-2xl {
   border-radius: 1rem;
 }
 
 .rounded-full {
   border-radius: 9999px;
-}
-
-.rounded {
-  border-radius: .25rem;
 }
 
 .border {
@@ -455,6 +491,11 @@ img, video {
   padding-right: 1.75rem;
 }
 
+.py-10 {
+  padding-top: 2.5rem;
+  padding-bottom: 2.5rem;
+}
+
 .py-3 {
   padding-top: .75rem;
   padding-bottom: .75rem;
@@ -465,8 +506,9 @@ img, video {
   padding-bottom: 1rem;
 }
 
-.pb-10 {
-  padding-bottom: 2.5rem;
+.px-10 {
+  padding-left: 2.5rem;
+  padding-right: 2.5rem;
 }
 
 .pb-14 {
@@ -475,6 +517,10 @@ img, video {
 
 .pb-2 {
   padding-bottom: .5rem;
+}
+
+.pb-20 {
+  padding-bottom: 5rem;
 }
 
 .pt-2 {
@@ -505,6 +551,14 @@ img, video {
   font-family: Cormorant Garamond, serif;
 }
 
+.font-logo {
+  font-family: Tenor Sans, sans-serif;
+}
+
+.font-nav {
+  font-family: Montserrat, sans-serif;
+}
+
 .text-3xl {
   font-size: 1.875rem;
   line-height: 2.25rem;
@@ -515,9 +569,18 @@ img, video {
   line-height: 2.5rem;
 }
 
+.text-\[32px\] {
+  font-size: 32px;
+}
+
 .text-base {
   font-size: 1rem;
   line-height: 1.5rem;
+}
+
+.text-lg {
+  font-size: 1.125rem;
+  line-height: 1.75rem;
 }
 
 .text-sm {
@@ -533,6 +596,18 @@ img, video {
 .text-xs {
   font-size: .75rem;
   line-height: 1rem;
+}
+
+.font-medium {
+  font-weight: 500;
+}
+
+.font-normal {
+  font-weight: 400;
+}
+
+.font-light {
+  font-weight: 300;
 }
 
 .uppercase {
@@ -551,18 +626,38 @@ img, video {
   letter-spacing: .12em;
 }
 
+.tracking-widest {
+  letter-spacing: .1em;
+}
+
 .text-accent {
   --tw-text-opacity: 1;
   color: rgb(200 184 172 / var(--tw-text-opacity, 1));
 }
 
+.text-brand-d {
+  --tw-text-opacity: 1;
+  color: rgb(235 223 207 / var(--tw-text-opacity, 1));
+}
+
+.text-brand-i {
+  --tw-text-opacity: 1;
+  color: rgb(151 134 114 / var(--tw-text-opacity, 1));
+}
+
+.text-brand-o {
+  --tw-text-opacity: 1;
+  color: rgb(245 228 218 / var(--tw-text-opacity, 1));
+}
+
+.text-brand-v {
+  --tw-text-opacity: 1;
+  color: rgb(179 189 164 / var(--tw-text-opacity, 1));
+}
+
 .text-ink {
   --tw-text-opacity: 1;
   color: rgb(47 47 47 / var(--tw-text-opacity, 1));
-}
-
-.text-ink\/50 {
-  color: #2f2f2f80;
 }
 
 .text-ink\/55 {
@@ -614,6 +709,20 @@ img, video {
   transition-property: color, background-color, border-color, text-decoration-color, fill, stroke;
   transition-duration: .15s;
   transition-timing-function: cubic-bezier(.4, 0, .2, 1);
+}
+
+.transition-opacity {
+  transition-property: opacity;
+  transition-duration: .15s;
+  transition-timing-function: cubic-bezier(.4, 0, .2, 1);
+}
+
+.duration-\[2000ms\] {
+  transition-duration: 2s;
+}
+
+.ease-out {
+  transition-timing-function: cubic-bezier(0, 0, .2, 1);
 }
 
 :root {
@@ -746,9 +855,24 @@ summary::-webkit-details-marker {
     line-height: 1;
   }
 
+  .sm\:text-\[40px\] {
+    font-size: 40px;
+  }
+
   .sm\:text-sm {
     font-size: .875rem;
     line-height: 1.25rem;
+  }
+}
+
+@media (min-width: 768px) {
+  .md\:px-\[75px\] {
+    padding-left: 75px;
+    padding-right: 75px;
+  }
+
+  .md\:text-\[50px\] {
+    font-size: 50px;
   }
 }
 

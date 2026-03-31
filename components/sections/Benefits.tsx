@@ -3,7 +3,7 @@ import { benefitItems } from "@/data/content";
 
 export function Benefits(): ReactNode {
   return (
-    <section className="mb-20" aria-labelledby="benefits-title">
+    <section className="flex flex-col justify-center min-h-screen py-10" aria-labelledby="benefits-title">
       <h2 id="benefits-title" className="font-heading text-3xl uppercase tracking-calm sm:text-4xl">
         Benefits:
         <br />
