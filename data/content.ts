@@ -2,6 +2,9 @@ export type MethodItem = {
   id: string;
   title: string;
   text: string;
+  subTitle: string;
+  boldText1: string;
+  boldText2: string;
 };
 
 export type ProgramRow = {
@@ -13,6 +16,8 @@ export type BenefitItem = {
   id: string;
   title: string;
   text: string;
+  boldText1: string;
+  boldText2: string;
 };
 
 export type FaqItem = {
@@ -24,43 +29,58 @@ export type FaqItem = {
 export const methodItems: MethodItem[] = [
   {
     id: "01",
-    title: "Sensing",
-    text: "You learn to notice subtle shifts in attention and return to calm focus.",
+    title: "Sensory Isolation",
+    subTitle: "Hard cut",
+    text: "Hard cut of digital and physical stimuli. We shift the brain from reactive \"ping-pong\" mode to a state of pure, clinical observation.",
+    boldText1: "Hard cut",
+    boldText2: "shift the brain",
   },
   {
     id: "02",
-    title: "Attention",
-    text: "You train stable concentration through short, repeatable routines.",
+    title: "Thought\n Observation",
+    subTitle: "Focus Training",
+    text: "Identify the exact millisecond a thought emerges. Practice being the \"neutral witness\" — observing the mental noise without becoming it.",
+    boldText1: "Identify",
+    boldText2: "Practice being",
   },
   {
     id: "03",
-    title: "Calm Narrative",
-    text: "You develop a softer internal dialogue and reduce mental noise.",
+    title: "Expansion of\n the Second",
+    subTitle: "Mindful Thinking",
+    text: "The core practice. Widening the vital interval between a thought and your reaction. True autonomy is born in this gap.",
+    boldText1: "core practice",
+    boldText2: "True autonomy",
   },
 ];
 
 export const programRows: ProgramRow[] = [
-  { stage: "Stage 01", result: "Calibration" },
-  { stage: "Stage 02", result: "Architecture of Silence" },
-  { stage: "Stage 03", result: "The Second Expansion" },
-  { stage: "Stage 04", result: "Total Integration" },
+  { stage: "STAGE 01", result: "CALIBRATION" },
+  { stage: "STAGE 02", result: "ARCHITECTURE OF SILENCE" },
+  { stage: "STAGE 03", result: "THE SECOND EXPANSION" },
+  { stage: "STAGE 04", result: "TOTAL INTEGRATION" },
 ];
 
 export const benefitItems: BenefitItem[] = [
   {
     id: "01",
-    title: "Mental Clarity",
-    text: "You build a clean attention cycle with lower internal friction.",
+    title: "Mental Clarity\non Demand",
+    text: "Master the ability to access a state of \"pure focus\" even in high-pressure environments. No more brain fog or reactive decision-making.",
+    boldText1: "",
+    boldText2: "",
   },
   {
     id: "02",
-    title: "Emotional Resilience",
-    text: "You improve reaction control and recover faster after stress.",
+    title: "Emotional\nResilience",
+    text: "By widening the \"Gap,\" you gain the power to choose your response to stress rather than being a slave to your impulses.",
+    boldText1: "",
+    boldText2: "",
   },
   {
     id: "03",
-    title: "Healthy Sleep",
-    text: "You reduce cognitive overdrive before sleep and wake up steadier.",
+    title: "Time\nReclamation",
+    text: "Stop losing hours to digital noise. Reclaim your day by mastering your internal second and directing energy toward what truly matters.",
+    boldText1: "",
+    boldText2: "",
   },
 ];
 
@@ -68,16 +88,16 @@ export const faqItems: FaqItem[] = [
   {
     id: "faq-1",
     question: "Is this for beginners?",
-    answer: "Yes. The program starts from basic breathing and attention drills.",
+    answer: "Yes. Whether you have never meditated or have years of experience, the VOID protocol is a technical approach that starts from the basics.",
   },
   {
     id: "faq-2",
     question: "How much time does it take?",
-    answer: "10-20 minutes daily is enough to complete each stage.",
+    answer: "The program requires 15–20 minutes of dedicated practice per day. Precision is more important than duration.",
   },
   {
     id: "faq-3",
     question: "Is there ongoing support?",
-    answer: "Yes. You get weekly check-ins and Q&A sessions.",
+    answer: "Stage 04 includes integration protocols to ensure the method becomes a permanent part of your life.",
   },
 ];

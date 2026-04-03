@@ -6,20 +6,19 @@ import { Benefits } from "@/components/sections/Benefits";
 import { FAQ } from "@/components/sections/FAQ";
 import { AccessForm } from "@/components/sections/AccessForm";
 import { Footer } from "@/components/sections/Footer";
-
+// do burger
+// do sql/api
 export default function HomePage() {
   return (
     <main className="min-h-screen text-ink relative">
       <Hero />
-      <div className="mx-auto w-full max-w-[1440px] px-6 pb-14 sm:px-10">
-        <Problem />
-        <Method />
-        <Program />
-        <Benefits />
-        <FAQ />
-        <AccessForm />
-        <Footer />
-      </div>
+      <Problem />
+      <Method />
+      <Program />
+      <Benefits />
+      <FAQ />
+      <AccessForm />
+      <Footer />
     </main>
   );
 }

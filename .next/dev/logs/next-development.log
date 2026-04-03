@@ -1,18 +1,56 @@
-[00:00:03.813] Server  LOG      ✓ Ready in 3.4s
-[00:00:07.969] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:06:22.703] Server  LOG      ✓ Compiled in 41ms
-[00:06:25.542] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:07:19.319] Server  LOG      ✓ Compiled in 26ms
-[00:08:01.070] Server  LOG      ✓ Compiled in 29ms
-[00:09:17.818] Server  LOG      ✓ Compiled in 25ms
-[00:10:06.905] Server  LOG      ✓ Compiled in 24ms
-[00:11:40.740] Server  LOG      ✓ Compiled in 23ms
-[00:11:45.818] Server  LOG      ✓ Compiled in 19ms
-[00:11:59.283] Server  LOG      ✓ Compiled in 23ms
-[00:12:14.355] Server  LOG      ✓ Compiled in 21ms
-[00:21:02.814] Server  LOG      ✓ Compiled in 33ms
-[00:21:57.617] Server  LOG      ✓ Compiled in 32ms
-[00:22:29.380] Server  LOG      ✓ Compiled in 34ms
-[00:24:09.081] Server  LOG      ✓ Compiled in 27ms
-[00:25:27.409] Server  LOG      ✓ Compiled in 19ms
-[00:31:05.306] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:00:04.178] Server  LOG      ✓ Ready in 3.1s
+[00:00:28.757] Server  LOG      ○ Compiling / ...
+[00:00:31.245] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:50:28.851] Server  WARN     ⚠ Cross origin request detected from 172.20.10.2 to /_next/* resource. In a future major version of Next.js, you will need to explicitly configure "allowedDevOrigins" in next.config to allow this.
+Read more: https://nextjs.org/docs/app/api-reference/config/next-config-js/allowedDevOrigins
+[01:14:13.058] Server  LOG      ✓ Compiled in 127ms
+[01:16:49.625] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[09:13:17.511] Server  LOG      ✓ Compiled in 21ms
+[09:13:56.609] Server  LOG      ✓ Compiled in 56ms
+[09:17:24.256] Server  LOG      ✓ Compiled in 37ms
+[09:17:36.024] Server  LOG      ✓ Compiled in 31ms
+[09:19:55.090] Server  LOG     burger
+[09:19:55.090] Server  LOG     sql/ap
+[09:19:57.997] Server  LOG     burger
+[09:19:57.998] Server  LOG     sql/api
+[09:20:31.922] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[11:29:51.436] Server  LOG      ✓ Compiled in 61ms
+[11:30:45.601] Server  LOG      ✓ Compiled in 53ms
+[11:43:57.338] Server  LOG      ✓ Compiled in 66ms
+[11:44:19.110] Server  LOG      ✓ Compiled in 72ms
+[11:48:12.240] Server  LOG      ✓ Compiled in 49ms
+[11:49:23.791] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[11:50:06.692] Server  LOG      ✓ Compiled in 67ms
+[11:50:33.270] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[12:03:24.763] Server  LOG      ✓ Compiled in 66ms
+[12:03:54.942] Server  LOG      ✓ Compiled in 34ms
+[12:04:29.046] Server  LOG      ✓ Compiled in 62ms
+[12:05:08.087] Server  LOG      ✓ Compiled in 46ms
+[12:06:13.815] Server  LOG      ✓ Compiled in 32ms
+[12:06:36.577] Server  LOG      ✓ Compiled in 33ms
+[12:06:59.629] Server  LOG      ✓ Compiled in 33ms
+[12:07:20.904] Server  LOG      ✓ Compiled in 46ms
+[12:07:47.401] Server  LOG      ✓ Compiled in 34ms
+[12:08:07.974] Server  LOG      ✓ Compiled in 31ms
+[12:08:52.963] Server  LOG      ✓ Compiled in 37ms
+[12:12:57.146] Server  LOG      ✓ Compiled in 36ms
+[12:13:21.466] Server  LOG      ✓ Compiled in 32ms
+[12:13:48.630] Server  LOG      ✓ Compiled in 42ms
+[12:14:12.195] Server  LOG      ✓ Compiled in 33ms
+[12:14:29.859] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[12:16:03.303] Server  LOG      ✓ Compiled in 39ms
+[12:16:24.163] Server  LOG      ✓ Compiled in 57ms
+[12:16:38.490] Server  LOG      ✓ Compiled in 37ms
+[12:19:54.019] Server  LOG      ✓ Compiled in 39ms
+[12:21:06.523] Server  LOG      ✓ Compiled in 36ms
+[12:21:30.188] Server  LOG      ✓ Compiled in 39ms
+[12:21:57.121] Server  LOG      ✓ Compiled in 36ms
+[12:22:21.125] Server  LOG      ✓ Compiled in 28ms
+[12:23:58.406] Server  LOG      ✓ Compiled in 32ms
+[12:24:22.594] Server  LOG      ✓ Compiled in 43ms
+[12:24:45.349] Server  LOG      ✓ Compiled in 32ms
+[12:25:16.978] Server  LOG      ✓ Compiled in 30ms
+[12:26:15.283] Server  LOG      ✓ Compiled in 35ms
+[12:27:06.679] Server  LOG      ✓ Compiled in 32ms
+[12:27:28.749] Server  LOG      ✓ Compiled in 31ms
+[12:29:55.868] Server  LOG      ✓ Compiled in 1203ms

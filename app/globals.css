@@ -1,8 +1,14 @@
-﻿@import url("https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600&family=Manrope:wght@400;500;600&family=Tenor+Sans&display=swap");
+﻿@import url("https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600&family=Montserrat:wght@400;500;600&family=Tenor+Sans&display=swap");
 
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@property --angle {
+  syntax: '<angle>';
+  initial-value: 0deg;
+  inherits: false;
+}
 
 :root {
   color-scheme: light;
@@ -12,18 +18,26 @@
   box-sizing: border-box;
 }
 
+html {
+  scroll-behavior: smooth;
+  overflow-x: hidden;
+}
+
 html,
 body {
   margin: 0;
   padding: 0;
+  overflow-x: hidden;
 }
 
 body {
-  font-family: "Manrope", sans-serif;
-  background: radial-gradient(circle at top right, #f8f5f1 0%, #f4f2ee 40%, #f2efea 100%);
+  font-family: "Montserrat", sans-serif;
+  background: #FFF;
   color: #2f2f2f;
   text-rendering: optimizeLegibility;
+
   -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 
 a {

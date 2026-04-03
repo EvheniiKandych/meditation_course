@@ -11,7 +11,7 @@ type SectionTitleProps = {
  */
 export function SectionTitle({ top, accent }: SectionTitleProps): ReactNode {
   return (
-    <h2 className="font-heading text-3xl uppercase tracking-calm text-ink/90 sm:text-4xl">
+    <h2 className="font-cormorant text-3xl uppercase tracking-calm text-ink/90 sm:text-4xl">
       {top}
       {accent ? <span className="text-accent"> {accent}</span> : null}
     </h2>

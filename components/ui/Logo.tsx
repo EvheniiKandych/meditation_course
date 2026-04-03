@@ -9,7 +9,7 @@ type LogoProps = {
  */
 export function Logo({ className = "" }: LogoProps): ReactNode {
   return (
-    <p className={`font-logo tracking-widest ${className}`}>
+    <p className={`font-tenor tracking-widest ${className}`}>
       <span className="text-brand-v">V</span>
       <span className="text-brand-o">O</span>
       <span className="text-brand-i">I</span>
